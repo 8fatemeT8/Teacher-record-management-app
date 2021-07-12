@@ -40,7 +40,7 @@ if (strlen($_SESSION['trmsaid']==0)) {
 
     <?php include_once('includes/sidebar.php');?>
 
-    <div id="right-panel" class="right-panel">
+    <div id="left-panel" class="left-panel">
 
         <!-- Header-->
         <?php include_once('includes/header.php');?>
@@ -79,7 +79,7 @@ if (strlen($_SESSION['trmsaid']==0)) {
 
                     <div class="col-lg-12">
                         <div class="card">
-                            <div class="card-header"><strong>بین تاریخ</strong><small> گزارشات</small></div>
+                            <div class="card-header"><small>  گزارشات </small><strong>  بین دو تاریخ </strong></div>
                             <form name="bwdatesreport"  action="bwdates-reports-details.php" method="post">
                                 <p style="font-size:16px; color:red" align="center"> <?php if($msg){
     echo $msg;
@@ -91,7 +91,7 @@ if (strlen($_SESSION['trmsaid']==0)) {
                                         
                                                     </div>
                                                    <p style="text-align: center;"><button type="submit" class="btn btn-primary btn-sm" name="submit" id="submit">
-                                                            <i class="fa fa-dot-circle-o"></i> Submit
+                                                            <i class="fa fa-dot-circle-o"></i> ثبت
                                                         </button></p>
                                                   
                                                 </div>

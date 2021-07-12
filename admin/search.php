@@ -39,7 +39,7 @@ if (strlen($_SESSION['trmsaid']==0)) {
 
     <?php include_once('includes/sidebar.php');?>
 
-    <div id="right-panel" class="right-panel">
+    <div id="left-panel" class="left-panel">
 
         <!-- Header-->
         <?php include_once('includes/header.php');?>
@@ -100,7 +100,7 @@ if(isset($_POST['search']))
 
 $sdata=$_POST['searchdata'];
   ?>
-  <h4 align="center">نتیجه  "<?php echo $sdata;?>" کلید واژه </h4> 
+  <h4 align="center">  "<?php echo $sdata;?>"نتیجه کلید واژه </h4>
 
 
                             <div class="card-body">

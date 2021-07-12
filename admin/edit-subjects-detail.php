@@ -17,7 +17,7 @@ $query->bindParam(':subjects',$subjects,PDO::PARAM_STR);
 $query->bindParam(':eid',$eid,PDO::PARAM_STR);
     $query->execute();
 
-    echo '<script>alert("Subject has been updated")</script>';
+    echo '<script>alert("عنوان به روزرسانی شد")</script>';
 
   }
   ?>
@@ -52,7 +52,7 @@ $query->bindParam(':eid',$eid,PDO::PARAM_STR);
 
     <?php include_once('includes/sidebar.php');?>
 
-    <div id="right-panel" class="right-panel">
+    <div id="left-panel" class="left-panel">
 
         <!-- Header-->
         <?php include_once('includes/header.php');?>
@@ -91,7 +91,7 @@ $query->bindParam(':eid',$eid,PDO::PARAM_STR);
 
                     <div class="col-lg-12">
                         <div class="card">
-                            <div class="card-header"><strong>عنوان</strong><small> جزئیات</small></div>
+                            <div class="card-header"><small>  جزئیات </small><strong>  عناوین </strong></div>
                             <form name="" method="post" action="">
                                 
                             <div class="card-body card-block">
@@ -118,7 +118,7 @@ foreach($results as $row)
                                                             <i class="fa fa-dot-circle-o"></i> ویرایش
                                                         </button></p>
                                                         
-                                                    </div>س
+                                                    </div>
                                                 </div>
                                                 </form>
                                             </div>

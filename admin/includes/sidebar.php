@@ -1,4 +1,4 @@
-<aside id="left-panel" class="left-panel">
+<aside id="right-panel" class="right-panel">
         <nav class="navbar navbar-expand-sm navbar-default">
 <
             <div class="navbar-header">

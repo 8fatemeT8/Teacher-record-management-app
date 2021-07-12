@@ -21,7 +21,7 @@ $_SESSION['trmsaid']=$result->ID;
 $_SESSION['login']=$_POST['username'];
 echo "<script type='text/javascript'> document.location ='dashboard.php'; </script>";
 } else{
-echo "<script>alert('Invalid Details');</script>";
+echo "<script>alert('جزئیات نامعتبر');</script>";
 }
 }
 
@@ -59,7 +59,7 @@ echo "<script>alert('Invalid Details');</script>";
         <div class="container">
             <div class="login-content">
                 <div class="login-logo">
-                    <h3 style="color:black">سیستم مدیریت سوابق اساتید</h3>
+                    <h3 style="color:black">سیستم مدیریت اساتید</h3>
                     <hr  color="red"/>
                 </div>
                 <div class="login-form">

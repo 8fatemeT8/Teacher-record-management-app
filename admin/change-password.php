@@ -26,9 +26,9 @@ $chngpwd1-> bindParam(':adminid', $adminid, PDO::PARAM_STR);
 $chngpwd1-> bindParam(':newpassword', $newpassword, PDO::PARAM_STR);
 $chngpwd1->execute();
 
-echo '<script>alert("Your password successully changed")</script>';
+echo '<script>alert("رمز عبور با موفقیت تغییر یافت")</script>';
 } else {
-echo '<script>alert("Your current password is wrong")</script>';
+echo '<script>alert("رمز عبور فعلی اشتباه است")</script>';
 
 }
 
@@ -65,7 +65,7 @@ function checkpass()
 {
 if(document.changepassword.newpassword.value!=document.changepassword.confirmpassword.value)
 {
-alert('New Password and Confirm Password field does not match');
+alert('رمز عبور جدید و تأیید رمز عبور مطابقت ندارد');
 document.changepassword.confirmpassword.focus();
 return false;
 }
@@ -81,7 +81,7 @@ return true;
 
     <?php include_once('includes/sidebar.php');?>
 
-    <div id="right-panel" class="right-panel">
+    <div id="left-panel" class="left-panel">
 
         <!-- Header-->
         <?php include_once('includes/header.php');?>

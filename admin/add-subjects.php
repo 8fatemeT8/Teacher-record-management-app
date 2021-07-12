@@ -19,12 +19,12 @@ $query->bindParam(':subjects',$subjects,PDO::PARAM_STR);
 
    $LastInsertId=$dbh->lastInsertId();
    if ($LastInsertId>0) {
-    echo '<script>alert("Subject has been added.")</script>';
+    echo '<script>alert("عنوان اضافه شد")</script>';
 echo "<script>window.location.href ='add-subjects.php'</script>";
   }
   else
     {
-         echo '<script>alert("Something Went Wrong. Please try again")</script>';
+         echo '<script>alert("مشکلی پیش آمد. لطفا دوباره تلاش کنید")</script>';
     }
 
   
@@ -62,7 +62,7 @@ echo "<script>window.location.href ='add-subjects.php'</script>";
 
     <?php include_once('includes/sidebar.php');?>
 
-    <div id="right-panel" class="right-panel">
+    <div id="left-panel" class="left-panel">
 
         <!-- Header-->
         <?php include_once('includes/header.php');?>
@@ -101,12 +101,12 @@ echo "<script>window.location.href ='add-subjects.php'</script>";
 
                     <div class="col-lg-12">
                         <div class="card">
-                            <div class="card-header"><strong>عناوین </strong><small> جزئیات</small></div>
+                            <div class="card-header"><small>  جزئیات </small><strong>  عناوین </strong></div>
                             <form name="" method="post" action="">
                                 
                             <div class="card-body card-block">
  
-                                <div class="form-group"><label for="company" class=" form-control-label">نام عناوینe</label><input type="text" name="subjects" value="" class="form-control" id="subjects" required="true"></div>
+                                <div class="form-group"><label for="company" class=" form-control-label">نام عنوان</label><input type="text" name="subjects" value="" class="form-control" id="subjects" required="true"></div>
                                               <p style="text-align: center;"><button type="submit" class="btn btn-primary btn-sm" name="submit" id="submit">
                                                             <i class="fa fa-dot-circle-o"></i>  اضافه کردن
                                                         </button></p>

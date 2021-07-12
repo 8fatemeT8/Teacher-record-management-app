@@ -28,7 +28,7 @@ $query->bindParam(':pic',$propic,PDO::PARAM_STR);
 $query->bindParam(':eid',$eid,PDO::PARAM_STR);
     $query->execute();
 
-    echo '<script>alert("Image has been updated")</script>';
+    echo '<script>alert("تصویر به روزرسانی شد")</script>';
 
   }
 }
@@ -64,7 +64,7 @@ $query->bindParam(':eid',$eid,PDO::PARAM_STR);
 
     <?php include_once('includes/sidebar.php');?>
 
-    <div id="right-panel" class="right-panel">
+    <div id="left-panel" class="left-panel">
 
         <!-- Header-->
         <?php include_once('includes/header.php');?>

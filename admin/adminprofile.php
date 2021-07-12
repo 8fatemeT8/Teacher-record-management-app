@@ -20,11 +20,11 @@ if (strlen($_SESSION['trmsaid']==0)) {
 $query->execute();
 if($query -> rowCount() > 0)
    {
-    echo '<script>alert("Your profile has been updated")</script>';
+    echo '<script>alert("پروفایل شما به روزرسانی شد")</script>';
   }
   else
     {
-        echo '<script>alert("Something Went Wrong. Please try again")</script>';
+        echo '<script>alert("مشکلی پیش آمد. لطفا دوباره تلاش کنید")</script>';
      
     }
   }
@@ -61,7 +61,7 @@ if($query -> rowCount() > 0)
 
     <?php include_once('includes/sidebar.php');?>
 
-    <div id="right-panel" class="right-panel">
+    <div id="left-panel" class="left-panel">
 
         <!-- Header-->
         <?php include_once('includes/header.php');?>
@@ -100,7 +100,7 @@ if($query -> rowCount() > 0)
 
                     <div class="col-lg-12">
                         <div class="card">
-                            <div class="card-header"><strong>مدیر </strong><small> پروفایل</small></div>
+                            <div class="card-header"><small>  پروفایل </small><strong>  مدیر </strong></div>
                             <form name="profile" method="post" action="">
                                 
                             <div class="card-body card-block">
