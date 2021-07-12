@@ -13,7 +13,7 @@ $extension = substr($propic,strlen($propic)-4,strlen($propic));
 $allowed_extensions = array(".jpg","jpeg",".png",".gif");
 if(!in_array($extension,$allowed_extensions))
 {
-echo "<script>alert('Profile Pics has Invalid format. Only jpg / jpeg/ png /gif format allowed');</script>";
+echo "<script>alert('قابل قبول است jpg / jpeg/ png /gif عکس فرمت ارسال شده قابل قبول نمیباشد ، فرمت های ');</script>";
 }
 else
 {
