@@ -44,7 +44,7 @@ function checkpass()
 {
 if(document.changepassword.newpassword.value!=document.changepassword.confirmpassword.value)
 {
-alert('New Password and Confirm Password field does not match');
+alert('مقادیر وارد شده هم خوانی ندارند');
 document.changepassword.confirmpassword.focus();
 return false;
 }
@@ -78,13 +78,13 @@ return true;
                                 <label>تکرار رمز عبور جدید</label>
                                 <input type="password" class="form-control" placeholder="Confirm Your Password" name="confirmpassword" required="">
                         </div>
-                                <div class="checkbox">
+                                <!-- <div class="checkbox">
                                     <label class="pull-left">
-                                <a href="index.php">تایید</a>
+                                <a href="index.php">خانه</a>
                             </label>
 
-                                </div>
-                                <button type="submit" class="btn btn-success btn-flat m-b-30 m-t-30" name="submit">ثبت</button>
+                                </div> -->
+                                <button type="submit" class="btn btn-success btn-flat m-b-30 m-t-30" name="submit" href = "index.php">ثبت</button>
                                 
                             
                     </form>

@@ -36,7 +36,7 @@ if (strlen($_SESSION['trmsaid']==0)) {
 
     <?php include_once('includes/sidebar.php');?>
 
-    <div id="left-panel" class="left-panel">
+    <div id="right-panel" class="right-panel">
 
         <?php include_once('includes/header.php');?>
         <!-- Header-->

@@ -64,7 +64,7 @@ $query->bindParam(':eid',$eid,PDO::PARAM_STR);
 
     <?php include_once('includes/sidebar.php');?>
 
-    <div id="left-panel" class="left-panel">
+    <div id="right-panel" class="right-panel">
 
         <!-- Header-->
         <?php include_once('includes/header.php');?>

@@ -73,7 +73,7 @@ return true;
         <div class="container">
             <div class="login-content">
                 <div class="login-logo">
-                      <h3 style="color:black"> سیستم مدیریت اساتید </h3>
+                      <h3 style="color:black"> سیستم مدیریت سوابق اساتید </h3>
                     <hr  color="red"/>
                 </div>
                 <div class="login-form">
@@ -99,13 +99,13 @@ return true;
 <input class="form-control" type="password" name="confirmpassword" required="true" />
 </div>
 
-<div class="checkbox">
+<!-- <div class="checkbox">
 <label class="pull-left">
- <a href="index.php">تایید</a>
+ <a href="">خانه</a>
  </label>
-</div>
+</div> -->
 
-<button type="submit" class="btn btn-success btn-flat m-b-30 m-t-30" name="submit">بازنشانی</button>
+<button type="submit" class="btn btn-success btn-flat m-b-30 m-t-30" name="submit" href = "index.php">بازنشانی</button>
 </form>
 
 </div>
