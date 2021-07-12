@@ -99,13 +99,13 @@ return true;
 <input class="form-control" type="password" name="confirmpassword" required="true" />
 </div>
 
-<!-- <div class="checkbox">
+<div class="checkbox">
 <label class="pull-left">
- <a href="">خانه</a>
+ <a  href = "index.php">صفحه ورود</a>
  </label>
-</div> -->
+</div>
 
-<button type="submit" class="btn btn-success btn-flat m-b-30 m-t-30" name="submit" href = "index.php">بازنشانی</button>
+<button type="submit" class="btn btn-success btn-flat m-b-30 m-t-30" name="submit" >بازنشانی</button>
 </form>
 
 </div>

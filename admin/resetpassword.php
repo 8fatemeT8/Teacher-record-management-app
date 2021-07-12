@@ -78,13 +78,13 @@ return true;
                                 <label>تکرار رمز عبور جدید</label>
                                 <input type="password" class="form-control" placeholder="Confirm Your Password" name="confirmpassword" required="">
                         </div>
-                                <!-- <div class="checkbox">
+                                <div class="checkbox">
                                     <label class="pull-left">
-                                <a href="index.php">خانه</a>
+                                <a href="index.php">صفحه ورود</a>
                             </label>
 
-                                </div> -->
-                                <button type="submit" class="btn btn-success btn-flat m-b-30 m-t-30" name="submit" href = "index.php">ثبت</button>
+                                </div>
+                                <button type="submit" class="btn btn-success btn-flat m-b-30 m-t-30" name="submit">ثبت</button>
                                 
                             
                     </form>
