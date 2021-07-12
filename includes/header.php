@@ -6,7 +6,7 @@
 
             <nav class="navbar navbar-expand-lg navbar-light">
                 <div class="container">
-                   <h3><a href="index.php">سیستم مدیریت اساتید</a></h3>
+                   <h3><a href="index.php">سیستم مدیریت سوابق اساتید</a></h3>
                     
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

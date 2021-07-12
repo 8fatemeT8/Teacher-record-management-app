@@ -59,7 +59,7 @@ echo "<script>alert('جزئیات نامعتبر');</script>";
         <div class="container">
             <div class="login-content">
                 <div class="login-logo">
-                    <h3 style="color:black">سیستم مدیریت اساتید</h3>
+                    <h3 style="color:black">سیستم مدیریت سوابق اساتید</h3>
                     <hr  color="red"/>
                 </div>
                 <div class="login-form">

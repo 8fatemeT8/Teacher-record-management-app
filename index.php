@@ -33,7 +33,7 @@ include('includes/dbconnection.php');
 					<div class="col-lg-6">
 						<div class="banner_content">
 							<h2>
-							<br>
+							
 								به سیستم مدیریت سوابق اساتید خوش آمدید
 	
 							</h2>
