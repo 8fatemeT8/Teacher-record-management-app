@@ -14,6 +14,8 @@ if(isset($_POST['submit']))
    if($query)
    {
 echo "<script>alert('رمز عبور با موفقیت تغییر یافت');</script>";
+echo "<script>window.location.href ='index.php'</script>";
+
 session_destroy();
    }
   

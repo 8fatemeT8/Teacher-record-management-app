@@ -23,6 +23,8 @@ $chngpwd1-> bindParam(':mobile', $mobile, PDO::PARAM_STR);
 $chngpwd1-> bindParam(':newpassword', $newpassword, PDO::PARAM_STR);
 $chngpwd1->execute();
 echo "<script>alert('رمز عبور با موفقیت تغییر یافت');</script>";
+echo "<script>window.location.href ='index.php'</script>";
+
 }
 else {
 echo "<script>alert(' فرمت شماره همراه و یا ایمیل اشتباه می باشد');</script>"; 
